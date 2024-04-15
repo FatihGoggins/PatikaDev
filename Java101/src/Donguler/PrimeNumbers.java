@@ -13,14 +13,8 @@ public class PrimeNumbers {
     public static boolean isPrime (int number) {
         int counter = 1;
         for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
-                counter++;
-            }
+            if (number % i == 0) counter++;
         }
-        if (counter == 1) {
-            return true;
-        } else {
-            return  false;
-        }
+        return counter == 1;
     }
 }
