@@ -1,8 +1,8 @@
-package KosulluIfadelerVeKodBloklari;
+package Donguler;
 
 import java.util.Scanner;
 
-public class ObebOkek {
+public class EbobEkok {
     public static void main(String[] args) {
         int n1 ,n2, okek;
         int obeb = 1;
