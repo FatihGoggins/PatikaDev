@@ -6,6 +6,7 @@ public class Course {
     String code;
     String prefix;
     int note = 0;
+    int oralNote = 0;
 
 
     Course(String name, String code, String prefix) {

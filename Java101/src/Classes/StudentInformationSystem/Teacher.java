@@ -7,7 +7,7 @@ public class Teacher {
 
     Teacher(String name, String mpNo, String branch) {
         this.name = name;
-        this. mpNo = mpNo;
+        this.mpNo = mpNo;
         this.branch = branch;
     }
 
