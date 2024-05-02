@@ -16,8 +16,8 @@ public class Main {
         chemistry.addTeacher(t3);
 
         Student student1 = new Student("İnek Şaban", "123456", "4", fluidMach, statics, chemistry);
-        student1.addBulkExamNote(100, 30, 50);
+        student1.addBulkExamNote(100, 30, 50, 70, 70, 80);
         student1.isPass();
-        student1.printNote();
+        student1.printAverage();
     }
 }
